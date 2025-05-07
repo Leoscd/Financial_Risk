@@ -1,0 +1,65 @@
+# Clasificación de Riesgo Financiero 📊
+
+![Banner de Riesgo Financiero](docs/images/financial-risk-banner.png)
+
+¡Hola! 👋 Bienvenido a mi proyecto de Clasificación de Riesgo Financiero donde he aplicado machine learning para resolver un problema financiero del mundo real.
+
+## ¿De qué trata este proyecto? 🤔
+
+¿Alguna vez te has preguntado cómo los bancos deciden quién es un prestatario riesgoso? ¡Eso es exactamente lo que abordé aquí!
+
+Este proyecto utiliza machine learning para clasificar a los solicitantes de préstamos en tres categorías de riesgo:
+- **Riesgo Bajo** ✅
+- **Riesgo Medio** ⚠️
+- **Riesgo Alto** 🚫
+
+Me enfoqué en mantener un alto recall para clientes de alto riesgo mientras mantenía el modelo simple e interpretable - porque en el mundo real, necesitamos modelos que rindan bien Y tengan sentido para los stakeholders del negocio.
+
+## Por qué es importante 💡
+
+En el panorama financiero actual, las decisiones basadas en datos son esenciales. Este proyecto muestra cómo podemos:
+
+- Identificar clientes potencialmente riesgosos antes de aprobar préstamos
+- Crear indicadores financieros significativos a partir de datos brutos
+- Equilibrar el rendimiento técnico con los requisitos comerciales
+- Extraer insights accionables de conjuntos de datos complejos
+
+## Las cosas técnicas interesantes que utilicé 🔧
+
+- **Python** con pandas, scikit-learn y matplotlib
+- **Ingeniería de características personalizada** para crear indicadores financieros
+- **Árboles de Decisión, Random Forests y Redes Neuronales**
+- Técnicas para manejo de **desbalance de clases**
+- **Optimización de hiperparámetros** enfocada en métricas de negocio
+
+## Resultados clave 🏆
+
+| Métrica | Antes | Después | Mejora |
+|---------|-------|---------|--------|
+| Precisión | 0.20 | 0.26 | +29% |
+| F1-Score | 0.20 | 0.25 | +23% |
+| Recall de Alto Riesgo | 0.59 | 0.59 | Mantenido |
+
+¿La mayor victoria? ¡Creé características predictivas potentes como el "índice de presión financiera" mientras simplificaba el modelo de más de 30 variables a solo 15!
+
+## Lo que aprendí 🧠
+
+Este proyecto reforzó mi creencia de que la buena ciencia de datos no se trata solo de algoritmos, sino de comprender el dominio del problema y crear características que capturen relaciones del mundo real.
+
+Los factores más predictivos no fueron solo los números financieros brutos, sino las relaciones entre ellos (como la forma en que la deuda se relaciona con los ingresos).
+
+## ¿Quieres probarlo tú mismo? 👨‍💻
+
+1. Clona este repositorio
+2. Instala los requisitos: `pip install -r requirements.txt`
+3. Abre el notebook de Jupyter para ver el análisis completo
+
+## ¡Conectemos! 🔗
+
+Me apasiona aplicar ML e IA para resolver problemas reales de negocio. Si estás interesado en discutir este proyecto, posibles mejoras u otros temas de ciencia de datos, ¡conectemos!
+
+[LinkedIn](https://www.linkedin.com/in/leo-iml/) | [GitHub](https://github.com/Leoscd)
+
+---
+
+*For an English version of this README, check the [README.md](README.md) file.*
